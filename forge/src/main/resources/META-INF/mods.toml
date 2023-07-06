@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[${forge_version},)"
+issueTrackerURL = "https://github.com/TropheusJ/architectury_template_mod"
+license = "MIT"
+
+[[mods]]
+modId = "example_mod"
+version = "${version}"
+displayName = "Example Mod"
+authors = "Tropheus Jay"
+description = '''
+Example description
+'''
+logoFile = "icon.png"
+
+[[dependencies.example_mod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraft_version},)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "example_mod",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "Example description",
+  "authors": [
+    "Tropheus Jay"
+  ],
+  "contact": {
+    "sources": "https://github.com/TropheusJ/architectury_template_mod"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.tropheusj.example_mod.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "example_mod.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraft_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "fabricloader": ">=${loader_version}"
+  }
+}
