@@ -26,7 +26,6 @@ public record StonecutterGroup(ResourceLocation id, Ingredient ingredient, List<
 			ResourceLocation id = this.id.withSuffix("_generated_" + i);
 			JsonObject json = makeRecipeJson(group, result);
 			output.accept(id, json);
-			System.out.println("Loaded " + id);
 		}
 	}
 
