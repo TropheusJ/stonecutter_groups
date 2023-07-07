@@ -11,4 +11,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "example_mod"
+rootProject.name = "stonecutter_groups"

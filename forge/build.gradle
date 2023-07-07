@@ -11,7 +11,7 @@ loom {
     forge {
         convertAccessWideners = true
 
-        mixinConfig "example_mod.mixins.json"
+        mixinConfig "stonecutter_groups.mixins.json"
     }
 }
 

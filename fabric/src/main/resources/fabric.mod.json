@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "stonecutter_groups",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "Example description",
+  "name": "Stonecutter Groups",
+  "description": "More concise Stonecutter recipes.",
   "authors": [
     "Tropheus Jay"
   ],
   "contact": {
-    "sources": "https://github.com/TropheusJ/architectury_template_mod"
+    "sources": "https://github.com/TropheusJ/stonecutter_groups"
   },
   "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.tropheusj.example_mod.ExampleModFabric"
+      "io.github.tropheusj.stonecutter_groups.StonecutterGroupsFabric"
     ]
   },
   "mixins": [
-    "example_mod.mixins.json"
+    "stonecutter_groups.mixins.json"
   ],
   "depends": {
     "minecraft": ">=${minecraft_version}",
